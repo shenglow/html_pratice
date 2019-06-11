@@ -1,0 +1,13 @@
+.box {
+    width: 100%;
+    background-image: url(../images/bg.png);
+    background-repeat: repeat-x;
+    background-color: #009872;
+}
+
+.box h2 {
+    color: #fff;
+    font-size: 36px;
+    text-align: center;
+    padding: 20px 0px;
+}

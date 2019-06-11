@@ -1,0 +1,35 @@
+查詢HTML,CSS,JS語法支援:
+https://caniuse.com/
+
+線上撰寫網頁服務:
+https://codepen.io/
+
+Pure.CSS框架:
+https://purecss.io/
+
+查詢瀏覽器市佔率:
+http://gs.statcounter.com/
+
+免費或付費icon:
+https://www.iconfinder.com/
+
+免費高解析圖庫:
+https://unsplash.com/
+https://www.flickr.com/ => 需注意版權
+
+css權重:
+important > 直接指定style > id > class > tag
+權重一樣則看先後順序
+
+head常用設定:
+頁簽icon = <link rel="shortcut icon" href="some.ico">
+網站描述 = <meta name="description" content="sometext" />
+搜尋關鍵字 = <meta name="keywords" content="word1、word2、word3" />
+FB相關設定 = 
+    <meta property="og:title" content="FB的標題" />
+    <meta property="og:description" content="FB的描述">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="FB上的網址" />
+    <meta property="og:image" content="FB的圖片" />
+apple系列連結顯示的icon = <link href="圖片路徑" rel="apple-touch-icon" />
+設定IE使用最新版 = <meta http-equiv="X-UA-Compatible" content="IE=Edge" />

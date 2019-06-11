@@ -1,0 +1,32 @@
+.productList {
+    width: 80%;
+    margin: 5px auto;
+}
+
+.productList .sale {
+    width: 50px;
+    background: red;
+    color: white;
+    padding: 5px;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.productList li {
+    float: left;
+    width: calc(25% - 4px);
+    height: 200px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    margin: 2px;
+    position: relative;
+}
+.productList li h2 {
+    font-weight: bold;
+    color: blue;
+}
+
+.productList img {
+    width: 100%;
+}

@@ -1,0 +1,40 @@
+.table {
+    width: 90%;
+    margin: auto;
+}
+
+.table p {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.table table {
+    width: 100%;
+    text-align: left;
+}
+
+.table th,.table td {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding: 10px 20px;
+}
+
+.table th {
+    background-color: #f0f0f5;
+    font-weight: bold;
+}
+
+.form {
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.form p {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 0px;
+}

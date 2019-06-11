@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML、CSS教學</title>
+    <link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="table">
+        <p>以下是表格練習</p>
+        <table>
+            <tr>
+                <th>標題一</th>
+                <th>標題二</th>
+                <th>標題三</th>
+            </tr>
+            <tr>
+                <td>內容一</td>
+                <td>內容二</td>
+                <td>內容三</td>
+            </tr>
+            <tr>
+                <td>內容四</td>
+                <td>內容五</td>
+                <td>內容六</td>
+            </tr>
+            <tr>
+                <td>內容七</td>
+                <td>內容八</td>
+                <td>內容九</td>
+            </tr>
+        </table>
+    </div>
+    
+    <div class="form">
+        <p>以下是表單練習</p>
+        <form action="index.html">
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email" placeholder="example@email.com">
+            <label for="username">User Name:</label>
+            <input type="text" name="username" id="username" placeholder="example">
+
+            <label for="birth">Birth</label>
+            <select name="birth" id="birth">
+                <option value="1900">1900</option>
+                <option value="1901">1901</option>
+                <option value="1902">1902</option>
+            </select>
+
+            <h2>Sex</h2>
+            <input type="radio" name="sex" value="male">男
+            <input type="radio" name="sex" value="female">女
+
+            <h2>Hobby</h2>
+            <input type="checkbox" name="hobby[]" value="hobby1">hobby1
+            <input type="checkbox" name="hobby[]" value="hobby2">hobby2
+            <input type="checkbox" name="hobby[]" value="hobby3">hobby3
+
+            <h2>Content</h2>
+            <textarea name="content" id="content" cols="30" rows="10"></textarea>
+
+            <input type="submit" value="下一步">
+        </form>
+    </div>
+</body>
+</html>
